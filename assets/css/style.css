@@ -5,8 +5,6 @@ body {
 
 .container {
   width: 100%;
-  /* padding-right: 15px;
-  padding-left: 15px; */
   margin-top: -8px;
   margin-right: auto;
   margin-left: auto;
@@ -22,6 +20,11 @@ body {
 .col-12 {
   position: relative;
   width: 100%;
+}
+
+.col-4-tetap{
+  position: relative;
+  width: 33.33%;
 }
 
 .text-center {
@@ -95,15 +98,32 @@ body {
   display: none;
   opacity: 0.5;
 }
-ul#navbar-content{
-  list-style-type: none;
-  display: inline;
-  background: #b6dbff;
+
+.nav-content{
+  height: 40px;
+  line-height: 40px;
 }
 
-ul#navbar-content li{
-  margin-left: 20px;
+.nav-item{
+  vertical-align: middle;
+  border-radius: 5px;
 }
+
+.nav-item:hover{
+  background: #5c93cc;
+  cursor: pointer;
+}
+
+.nav-content>.active{
+  background:  #5c93cc;
+}
+
+.tab-pane{
+  background: #cce5ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;

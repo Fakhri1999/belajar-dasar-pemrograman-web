@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 
-.col-4-tetap{
+.col-4-tetap {
   position: relative;
   width: 33.33%;
 }
@@ -99,29 +99,39 @@ body {
   opacity: 0.5;
 }
 
-.nav-content{
+.nav-content {
   height: 40px;
   line-height: 40px;
 }
 
-.nav-item{
+.nav-item {
   vertical-align: middle;
   border-radius: 5px;
 }
 
-.nav-item:hover{
+a.nav-item {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:hover {
   background: #5c93cc;
   cursor: pointer;
 }
 
-.nav-content>.active{
-  background:  #5c93cc;
+.nav-content>.active {
+  background: #5c93cc;
 }
 
-.tab-pane{
+.tab-pane {
   background: #cce5ff;
   padding: 10px;
   border-radius: 5px;
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
 }
 
 @media (min-width: 576px) {

@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Laila&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
   <title>User Page</title>
@@ -100,7 +101,8 @@
             <p><b>Follow me</b></p>
             <a href="https://github.com/Fakhri1999" target="_blank"><i class="fab fa-github-square s-30"></i></a>
             <a href="https://instagram.com/fakhrii_19" target="_blank"><i class="fab fa-instagram s-30"></i></a>
-            <a href="https://facebook.com/fakhri.imaduddin" target="_blank"><i class="fab fa-facebook-square s-30"></i></a>
+            <a href="https://facebook.com/fakhri.imaduddin" target="_blank"><i
+                class="fab fa-facebook-square s-30"></i></a>
             <a href="https://twitter.com/fakhri_1999" target="_blank"><i class="fab fa-twitter-square s-30"></i></a>
           </div>
         </div>
@@ -111,23 +113,35 @@
           </div>
         </div>
         <div class="row text-center nav-content">
-          <div class="col-4-tetap nav-item">
-              <a>Summary</a>
-          </div>
-          <div class="col-4-tetap nav-item">
-              <a>Education</a>
-          </div>
-          <div class="col-4-tetap nav-item">
-              <a>Portofolio</a>
-          </div>
+          <a class="col-4-tetap nav-item active" data-target="summary">Summary</a>
+          <a class="col-4-tetap nav-item" data-target="education">Education</a>
+          <a class="col-4-tetap nav-item" data-target="portofolio">Portofolio</a>
         </div>
         <div class="row">
           <div class="col-12">
             <div class="tab-content">
-              <div class="tab-pane">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc neque, commodo ac porttitor id, ornare eget eros. Etiam lacinia dignissim interdum. Etiam tempus luctus ipsum, non fermentum dui suscipit ac. Nullam in metus odio. Ut volutpat libero ac elit tristique accumsan. Praesent scelerisque feugiat tortor sit amet convallis. Duis pellentesque augue augue, efficitur cursus diam consectetur ac. Nulla fermentum purus ac justo malesuada eleifend. Proin porttitor rhoncus nibh eu suscipit. Duis fringilla sapien non eleifend suscipit. Proin vitae accumsan lorem.
+              <div class="tab-pane active" id="summary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nunc neque, commodo ac porttitor id,
+                ornare eget eros. Etiam lacinia dignissim interdum. Etiam tempus luctus ipsum, non fermentum dui
+                suscipit ac. Nullam in metus odio. Ut volutpat libero ac elit tristique accumsan. Praesent scelerisque
+                feugiat tortor sit amet convallis. Duis pellentesque augue augue, efficitur cursus diam consectetur ac.
+                Nulla fermentum purus ac justo malesuada eleifend. Proin porttitor rhoncus nibh eu suscipit. Duis
+                fringilla sapien non eleifend suscipit. Proin vitae accumsan lorem.
 
-                  Praesent eget dolor at libero dictum sollicitudin. Nam nec tincidunt erat, eu consectetur lectus. Nulla lobortis augue quis accumsan elementum. Aliquam id bibendum mauris. Sed a aliquet metus, sed tincidunt quam. Integer dapibus mauris sagittis nunc congue, non suscipit tellus rhoncus. Maecenas ac leo hendrerit, commodo mauris at, rutrum ipsum. Duis tempor dui tristique, malesuada purus et, commodo sem. Duis lacus turpis, fermentum vitae hendrerit a, elementum condimentum risus. Donec dictum sapien et tincidunt semper. Nulla feugiat auctor odio, sit amet vehicula augue. Sed molestie eleifend lacus in tempus. Donec a tortor ex. Nam ultricies tincidunt turpis, at porttitor augue congue vitae. Nam quis varius magna.
+                Praesent eget dolor at libero dictum sollicitudin. Nam nec tincidunt erat, eu consectetur lectus. Nulla
+                lobortis augue quis accumsan elementum. Aliquam id bibendum mauris. Sed a aliquet metus, sed tincidunt
+                quam. Integer dapibus mauris sagittis nunc congue, non suscipit tellus rhoncus. Maecenas ac leo
+                hendrerit, commodo mauris at, rutrum ipsum. Duis tempor dui tristique, malesuada purus et, commodo sem.
+                Duis lacus turpis, fermentum vitae hendrerit a, elementum condimentum risus. Donec dictum sapien et
+                tincidunt semper. Nulla feugiat auctor odio, sit amet vehicula augue. Sed molestie eleifend lacus in
+                tempus. Donec a tortor ex. Nam ultricies tincidunt turpis, at porttitor augue congue vitae. Nam quis
+                varius magna.
+              </div>
+              <div class="tab-pane" id="education">
+                Education
+              </div>
+              <div class="tab-pane" id="portofolio">
+                Portofolio
               </div>
             </div>
           </div>

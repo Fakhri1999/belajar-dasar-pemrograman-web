@@ -22,9 +22,9 @@ body {
   width: 100%;
 }
 
-.col-4-tetap {
+.col-6-tetap {
   position: relative;
-  width: 33.33%;
+  width: 50%;
 }
 
 .text-center {
@@ -132,6 +132,10 @@ a.nav-item {
 
 .tab-pane.active {
   display: block;
+}
+
+.education-content{
+  justify-content: center;
 }
 
 @media (min-width: 576px) {
